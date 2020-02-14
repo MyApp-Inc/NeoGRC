@@ -68,6 +68,7 @@
     <Folder Include="TestGRC\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\static\site.css" />
     <Content Include="app\static\web.config" />
     <Content Include="HelloDjangoApp\templates\HelloDjangoApp\index.html" />
     <Content Include="requirements.txt" />
