@@ -8,12 +8,21 @@ def index(request):
 
     return render(
         request,
-        "HelloDjangoApp/index.html",  # Relative path from the 'templates' folder to the template file
-        # "index.html", # Use this code for VS 2017 15.7 and earlier
+        "HelloDjangoApp/index.html",
         {
             'title' : "Hello Django",
-            'message' : "Hello Django!",
+            'message' : "柴田祥吾テストページ",
             'content' : " on " + now.strftime("%A, %d %B, %Y at %X")
+        }
+    )
+
+def about(request):
+    return render(
+        request,
+        "HelloDjangoApp/about.html",
+        {
+            'title' : "About HelloDjangoApp",
+            'content' : "２番目のページ"
         }
     )
 # Create your views here.
