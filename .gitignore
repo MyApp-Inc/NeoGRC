@@ -340,3 +340,4 @@ ASALocalRun/
 healthchecksdb
 /DjangoWeb/env
 /DjangoPolls/env
+/TestGRC2/env

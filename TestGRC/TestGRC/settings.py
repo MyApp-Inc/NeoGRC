@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'HelloDjangoApp',
+    'register',
 ]
 
 # Middleware framework
@@ -112,3 +112,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 STATIC_URL = '/static/'
 STATIC_ROOT = posixpath.join(*(BASE_DIR.split(os.path.sep) + ['static']))
+
+# registerというアプリケーションです
+AUTH_USER_MODEL = 'register.User'
+LOGIN_URL = 'register:login'
+LOGIN_REDIRECT_URL = 'register:top'
+
+# メールをコンソールに表示する
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
