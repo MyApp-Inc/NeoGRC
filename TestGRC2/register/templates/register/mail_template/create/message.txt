@@ -1,9 +1,9 @@
-{{ user.email }} —l ‰ïˆõ“o˜^Žè‘±‚«‚ðs‚Á‚Ä‚¢‚½‚¾‚«A‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚·B
+ï»¿{{ user.email }} æ§˜ ä¼šå“¡ç™»éŒ²æ‰‹ç¶šãã‚’è¡Œã£ã¦ã„ãŸã ãã€ã‚ã‚ŠãŒã¨ã†ã”ã–ã„ã¾ã™ã€‚
 
-‰º‹LURL‚æ‚èƒTƒCƒg‚ÉƒAƒNƒZƒX‚ÌãAˆø‚«‘±‚«‰ïˆõ“o˜^‚ð‚¨Šè‚¢‚¢‚½‚µ‚Ü‚·B
-‚Ü‚¾‰ïˆõ“o˜^Žè‘±‚«‚ÍŠ®—¹‚µ‚Ä‚¨‚è‚Ü‚¹‚ñ‚Ì‚ÅA‚²’ˆÓ‚­‚¾‚³‚¢B
+ä¸‹è¨˜URLã‚ˆã‚Šã‚µã‚¤ãƒˆã«ã‚¢ã‚¯ã‚»ã‚¹ã®ä¸Šã€å¼•ãç¶šãä¼šå“¡ç™»éŒ²ã‚’ãŠé¡˜ã„ã„ãŸã—ã¾ã™ã€‚
+ã¾ã ä¼šå“¡ç™»éŒ²æ‰‹ç¶šãã¯å®Œäº†ã—ã¦ãŠã‚Šã¾ã›ã‚“ã®ã§ã€ã”æ³¨æ„ãã ã•ã„ã€‚
 
-–{“o˜^—pURL
+æœ¬ç™»éŒ²ç”¨URL
 {{ protocol}}://{{ domain }}{% url 'register:user_create_complete' token %}
 
-VGRC
+æ–°GRC
