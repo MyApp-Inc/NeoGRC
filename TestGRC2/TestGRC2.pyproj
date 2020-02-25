@@ -60,6 +60,8 @@
     <Content Include="register\templates\register\user_create.html" />
     <Content Include="register\templates\register\user_create_complete.html" />
     <Content Include="register\templates\register\user_create_done.html" />
+    <Content Include="register\templates\register\user_detail.html" />
+    <Content Include="register\templates\register\user_form.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
