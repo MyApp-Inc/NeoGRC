@@ -54,7 +54,12 @@
     <Content Include="register\templates\register\base.html" />
     <Content Include="register\templates\register\index.html" />
     <Content Include="register\templates\register\login.html" />
+    <Content Include="register\templates\register\mail_template\create\message.txt" />
+    <Content Include="register\templates\register\mail_template\create\subject.txt" />
     <Content Include="register\templates\register\top.html" />
+    <Content Include="register\templates\register\user_create.html" />
+    <Content Include="register\templates\register\user_create_complete.html" />
+    <Content Include="register\templates\register\user_create_done.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -62,6 +67,8 @@
     <Folder Include="register\migrations\" />
     <Folder Include="register\templates\" />
     <Folder Include="register\templates\register\" />
+    <Folder Include="register\templates\register\mail_template\" />
+    <Folder Include="register\templates\register\mail_template\create\" />
     <Folder Include="TestGRC2\" />
   </ItemGroup>
   <ItemGroup>
